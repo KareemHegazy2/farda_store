@@ -147,7 +147,7 @@ export default function Catalog() {
   const [now, setNow] = useState(Date.now());
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  const WHATSAPP_NUMBER = '201000000000';
+  const WHATSAPP_NUMBER = '201131136452';
 
   useEffect(() => {
     const timer = setInterval(() => setNow(Date.now()), 1000);
